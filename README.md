@@ -5,8 +5,3 @@ Aplikasi dibuat dengan metode Naive Bayes menggunakan Framework Bootstrap 4 dan 
 Kunjungi [Dental Smile](https://dentalsmile.think-2gether.com/) untuk melihat aplikasi ini.
 
 
-
-
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/) 
