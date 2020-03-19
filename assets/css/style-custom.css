@@ -1,0 +1,537 @@
+/*Mobile Version*/
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('../../assets/img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+	position: relative;
+	top: -60px;
+	box-shadow: 2px 5px 15px 2px #888;
+}
+
+.jumbotron {
+	background-image: url('../../assets/img/teeth.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -197px;
+  height: 720px;
+}
+
+
+
+
+/*.img-shadow{
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25) !important;
+}*/
+
+.jumbotron h1 {
+	font-weight: 400;
+  text-shadow: 1px 1px #030303;
+  color: #282a44;
+  margin-top: 150px;
+}
+
+
+.floating {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	visibility: hidden;
+}
+
+.boxes {
+  margin: auto;
+  padding: 20px;
+  
+}
+/*--end--*/
+
+/*Checkboxes styles*/
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #181cd8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*--end--*/
+  
+  
+  /*Navbar*/
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #337ab7; 
+    margin-bottom: -3px;
+  }
+  /*--end--*/
+  
+  /*Footer*/
+
+
+  .section {
+    margin-top: 200px;
+  }
+
+  .rights {
+    color: #ffffff;
+  }
+  /*--end--*/
+  
+  /*Home*/
+  a {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+      color: #ffffff;
+  }
+
+  .form {
+      font-family: 'Josefin Sans', sans-serif;
+      margin-top: -140px;
+      background-color: #3c4e9a;
+      color: #ccc4af;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.8);
+      border-color: transparent;
+      border-radius: 10px;
+
+  }
+
+
+  .kelebihan {
+      font-family: 'ABeeZee', sans-serif;
+      font-size: 20px;
+      color: wheat;
+      margin-top: -350px;
+  }
+
+  .h2 {
+      font-family: 'Monda', sans-serif;
+  }
+
+  .mt-n1 {
+      margin-top: -300px !important;
+
+  }
+
+  /*--end--*/
+
+  /*About*/
+  .about{
+    margin-top: 200px;
+  }
+
+  .card1{
+    background-color: rgba(255, 255, 255, 0.8);
+   
+  }
+
+  .informasi{
+    background-image: url('../../assets/img/bgbottom.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 220px;
+     
+  }
+
+  hr{
+    background-image: linear-gradient(to right, rgba(60, 77, 154, 0.144), rgb(60, 77, 154), rgba(60, 77, 154, 0.144));
+    border: 0;
+    height: 2px;
+  }
+
+  
+  .penyakit{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 400px;
+  }
+  /*--end--*/
+
+  /*Form Diagnosa*/
+  .formdiagnosa{
+    margin-top: -250px;
+  }
+
+  /*--end--*/ 
+
+  /*Login*/
+  .p-0{
+    background-color: #3c4e9a;
+  }
+
+  .titlelogin{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .login{
+    background-image: url('../../assets/img/bglogin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*--end--*/
+
+  /* Button */
+ .btn {
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 17px 39px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-primary:hover {
+  background-color: #5a7ce2;
+  border-color: #5a7ce2;
+  color: #fff;
+} 
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-image: url('../../assets/img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content {
+    position: relative;
+    top: -60px;
+    box-shadow: 2px 5px 15px 2px #888;
+  }
+  
+  .jumbotron {
+    background-image: url('../../assets/img/teeth.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -150px;
+    height: 720px;
+  }
+  
+  .mt{
+    margin-top: 100px;
+  }
+  
+  
+  /*.img-shadow{
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25) !important;
+  }*/
+  
+  .jumbotron h1 {
+    font-weight: 400;
+    text-shadow: 1px 1px #030303;
+    color: #282a44
+  }
+  
+  
+  .floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    visibility: hidden;
+  }
+  
+  .boxes {
+    margin: auto;
+    padding: 20px;
+    
+  }
+  /*--end--*/
+  
+  /*Checkboxes styles*/
+  input[type="checkbox"] { display: none; }
+  
+  input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+  
+  input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #181cd8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+  }
+  
+  input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /*--end--*/
+    
+    
+    /*Navbar*/
+  
+    .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid #337ab7; 
+      margin-bottom: -3px;
+    }
+    /*--end--*/
+    
+    /*Footer*/
+  
+  
+    .section {
+      margin-top: 200px;
+    }
+  
+    .rights {
+      color: #ffffff;
+    }
+    /*--end--*/
+    
+    /*Home*/
+    a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+  
+    .form {
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -140px;
+        background-color: #3c4e9a;
+        color: #ccc4af;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.8);
+        border-color: transparent;
+        border-radius: 10px;
+  
+    }
+  
+  
+    .kelebihan {
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 20px;
+        color: wheat;
+        margin-top: -350px;
+    }
+  
+    .h2 {
+        font-family: 'Monda', sans-serif;
+    }
+  
+    .mt-n1 {
+        margin-top: -300px !important;
+  
+    }
+  
+    /*--end--*/
+  
+    /*About*/
+    .about{
+      margin-top: 200px;
+    }
+  
+    .card1{
+      background-color: rgba(255, 255, 255, 0.8);
+     
+    }
+  
+    .informasi{
+      background-image: url('../../assets/img/bgbottom.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 220px;
+       
+    }
+  
+    hr{
+      background-image: linear-gradient(to right, rgba(60, 77, 154, 0.144), rgb(60, 77, 154), rgba(60, 77, 154, 0.144));
+      border: 0;
+      height: 2px;
+      width: 700px;
+  
+    }
+  
+    
+    .penyakit{
+      margin-top: 20px;
+      margin-bottom: 40px;
+      height: 400px;
+    }
+    /*--end--*/
+  
+    /*Form Diagnosa*/
+    .formdiagnosa{
+      margin-top: -250px;
+    }
+  
+    /*--end--*/ 
+  
+    /*Login*/
+    .p-0{
+      background-color: #3c4e9a;
+    }
+  
+    .titlelogin{
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  
+    .login{
+      background-image: url('../../assets/img/bglogin.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    /*--end--*/
+  
+    /* Button */
+   .btn {
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 39px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-transform: uppercase;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #5a7ce2;
+    border-color: #5a7ce2;
+    color: #fff;
+  } 
+}
+
+@-webkit-keyframes AnimationName {
+  0%{
+     background-position:0% 31%
+ }
+  50%{
+     background-position:100% 70%
+ }
+  100%{
+     background-position:0% 31%
+ }
+}
+@-moz-keyframes AnimationName {
+  0%{
+     background-position:0% 31%
+ }
+  50%{
+     background-position:100% 70%
+ }
+  100%{
+     background-position:0% 31%
+ }
+}
+@keyframes AnimationName {
+  0%{
+     background-position:0% 31%
+ }
+  50%{
+     background-position:100% 70%
+ }
+  100%{
+     background-position:0% 31%
+ }
+}
+.btn-outline-light:hover{
+  color: #3f345f;
+}
+.btn-outline-warning:hover{
+  color: #ffffff;
+}
+.btn-sm {
+  font-size: 12px;
+  padding: 11px 25px;
+}
+.elements-page-btn .btn {
+  margin: 6px 3px;
+}
+
+
+/*--end--*/
+
+
+
+
+
